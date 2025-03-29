@@ -1,24 +1,22 @@
-# 01_KARATEKIDS
+# StrikeHer - AI-powered motion tracking system for self-defense training
 
-Traditional self-defense training methods are often inaccessible, leaving many women without essential skills to protect themselves.
+Traditional self-defense training methods are often inaccessible, leaving many women without essential skills to protect themselves. StrikeHer is a real-time AI-powered self-defense training assistant. It utilizes **MediaPipe** for motion tracking and provides instant feedback on techniques, helping users improve their strikes, stances, and overall form. We aim to provide a sensor-free, interactive experience to improve accessibility and ease of use.
 
-We aim to 
+## 🚀 Features  
+- **Hand & Pose Tracking**: Uses MediaPipe to analyze body movements in real time.  
+- **Strike Detection**: Identifies key self-defense moves like punches, blocks, and jabs.  
+- **Live Feedback**: The system analyzes form and provides real-time corrections using color and number-coded feedback for better posture. "90% correct stance → raise your arm higher!"
+- **Camera Integration**: AI detects body posture and actions in real-time using a webcam or phone camera.
 
-→ Develop an AI-powered motion tracking system in VR for self-defense training.
+## 🛠️ Tech Stack  
+- **Python**  
+- **OpenCV**  
+- **MediaPipe** (for pose estimation & hand tracking)  
 
-→ To provide a sensor-free, interactive experience to improve accessibility and ease of use.
-
-→ Offering real-time feedback and realistic attack simulations to enhance reaction time and technique.
-
-
-
-Our solution enables women to train in an immersive AR/VR environment using just a camera. No sensors, no bulky VR headsets. With AI-powered motion tracking, they can practice real-world self-defense techniques anytime, anywhere.
-
-In our AR/VR self-defense training system
-
-→ AI detects body posture and actions in real-time using a webcam or phone camera.
-
-→ Providing instant AI Feedback – "90% correct stance → raise your arm higher!" 
-  The system analyzes form and provides real-time corrections using color and number-coded feedback for better posture.
-
-→ Realistic Attack Simulations – Users face AI-generated attackers in multiple scenarios, training their reflexes and enhancing reaction speed for real-world situations.
+## 📂 Project Structure  
+| File | Description |
+|------|------------|
+| `feedback.py` | Provides AI-generated feedback based on movement analysis. |
+| `overlay_mediapipe.py` | Displays tracking overlays on camera feed. |
+| `test_camera*.py` | Tests camera input for real-time motion tracking. |
+| `test_fist.py`, `test_jab.py` | Detects specific self-defense movements. |
