@@ -6,7 +6,7 @@ Traditional self-defense training methods are often inaccessible, leaving many w
 - **Hand & Pose Tracking**: Uses MediaPipe to analyze body movements in real time.  
 - **Strike Detection**: Identifies key self-defense moves like punches, blocks, and jabs.  
 - **Live Feedback**: The system analyzes form and provides real-time corrections using color and number-coded feedback for better posture. "90% correct stance → raise your arm higher!"
-- **Camera Integration**: AI detects body posture and actions in real-time using a webcam or phone camera.
+- **Camera Integration**: AI detects body posture and actions using a webcam or phone camera.
 
 ## 🛠️ Tech Stack  
 - **Python**  
